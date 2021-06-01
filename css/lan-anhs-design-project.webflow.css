@@ -2678,6 +2678,7 @@ figcaption {
 
   .menu-icon {
     display: block;
+    width: 100%;
   }
 
   .navigation-item {
@@ -2704,7 +2705,9 @@ figcaption {
   }
 
   .menu-button {
+    width: auto;
     padding: 0px;
+    background-color: transparent;
   }
 
   .menu-button.w--open {
@@ -2982,6 +2985,13 @@ figcaption {
     justify-content: space-between;
     background-color: transparent;
   }
+
+  .graphic-work_grid.girl-illustration {
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3252,13 +3262,13 @@ figcaption {
   }
 
   .graphic-work_grid.duende {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .graphic-work_grid.bedtime-stories {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .all-graphic-work_grid {
@@ -3277,6 +3287,10 @@ figcaption {
   .project_title {
     font-size: 36px;
     line-height: 48px;
+  }
+
+  .menu-icon {
+    width: 100%;
   }
 
   .navigation {
@@ -3468,12 +3482,22 @@ figcaption {
   }
 
   .work-project_display-img {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .image-11 {
     width: 40%;
+  }
+
+  .graphic-work_grid.duende {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .graphic-work_grid.bedtime-stories {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
