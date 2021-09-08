@@ -1057,6 +1057,7 @@ figcaption {
 }
 
 .body {
+  display: block;
   background-color: transparent;
   color: #717171;
   font-weight: 400;
@@ -1065,6 +1066,16 @@ figcaption {
 .body.strong {
   color: #000;
   font-weight: 600;
+}
+
+.body.instructors {
+  margin-bottom: 104px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.body.instructors.link {
+  color: #000;
 }
 
 .grid {
@@ -1130,6 +1141,7 @@ figcaption {
   -ms-flex: 0 auto;
   flex: 0 auto;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .image-2 {
@@ -1217,8 +1229,8 @@ figcaption {
   background-color: #e8f3e2;
 }
 
-.div-block-2.kitchen-app {
-  background-color: #fff5e4;
+.div-block-2.ui-challenges {
+  background-color: #f0f0f0;
 }
 
 .div-block-3 {
@@ -1383,6 +1395,10 @@ figcaption {
 }
 
 .div-block-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 0px;
 }
 
@@ -2376,6 +2392,11 @@ figcaption {
   padding-bottom: 80px;
 }
 
+.ui-ux-work_project.ui-challenge {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .work-project_grid {
   grid-column-gap: 0px;
   grid-row-gap: 40px;
@@ -2386,7 +2407,7 @@ figcaption {
 }
 
 .work-project_display-img {
-  width: auto;
+  width: 100%;
   border-style: solid;
   border-width: 1px;
   border-color: #eaeaea;
@@ -2649,6 +2670,216 @@ figcaption {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.challenge-ui {
+  width: 100%;
+}
+
+.challenge-ui.image.day-4 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-5 {
+  width: 90%;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.challenge-ui.image.day-6 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-7 {
+  width: 30%;
+  margin-left: 0px;
+}
+
+.challenge-ui.image.day-7 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-9 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-10 {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-11 {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-14 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-15 {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-18 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-19 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-20 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-21 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-23 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-24 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.challenge-ui.image.day-32 {
+  margin-bottom: 20px;
+}
+
+.challenge-ui.image.day-37 {
+  width: 75%;
+}
+
+.challenge-ui.image.day-35 {
+  width: 75%;
+}
+
+.grid-21 {
+  grid-column-gap: 16px;
+}
+
+.ui-challenge.day-1 {
+  overflow: hidden;
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-2 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-3 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-4 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-5 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-6 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-7 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.mixed {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-8 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-34 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-13 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-16 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-17 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-22 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-25 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-26 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-27 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-28 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-29 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-30 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-31 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-32 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-33 {
+  margin-bottom: 104px;
+}
+
+.ui-challenge.day-36 {
+  margin-bottom: 104px;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid-22 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media screen and (max-width: 991px) {
@@ -3511,6 +3742,11 @@ figcaption {
   justify-self: end;
 }
 
+#w-node-_21598393-7375-8494-a9ff-d081fa65c32f-169cb223 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
 #w-node-_012f204a-ba03-5331-bbec-45f7d914bfb5-169cb223 {
   -ms-grid-column-align: end;
   justify-self: end;
@@ -3895,6 +4131,39 @@ figcaption {
   grid-row-end: 3;
 }
 
+#w-node-_0befc76b-828c-2822-f9fa-f2c6de040bbf-d4044b8b {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 3;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-_0befc76b-828c-2822-f9fa-f2c6de040bc4-d4044b8b {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+}
+
+#w-node-_0befc76b-828c-2822-f9fa-f2c6de040bc9-d4044b8b {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 2;
+  grid-column-end: 5;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-_9b2922ad-09b1-aebb-0430-7dee623c62c8-8a9cb228 {
     -ms-grid-column: 1;
@@ -4140,6 +4409,33 @@ figcaption {
   }
 
   #w-node-_0befc76b-828c-2822-f9fa-f2c6de040bc9-e6aae028 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 3;
+    grid-row-start: 3;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 4;
+  }
+
+  #w-node-_0befc76b-828c-2822-f9fa-f2c6de040bbf-d4044b8b {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+  }
+
+  #w-node-_0befc76b-828c-2822-f9fa-f2c6de040bc4-d4044b8b {
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_0befc76b-828c-2822-f9fa-f2c6de040bc9-d4044b8b {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-row: 3;
