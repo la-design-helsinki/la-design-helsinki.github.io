@@ -1,0 +1,16 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+images/Content-structure-p-1600.jpeg
+images/Desktop-ver-p-1080.png
+images/Desktop-ver-p-500.png
+images/Desktop-ver-p-800.png
+images/Footer-and-Banner-p-1080.png
+images/Marimekko-p-2600.png
+images/Nudie-Jeans-copy-p-1080.png
+images/Nudie-Jeans-copy-p-2000.png
+images/Nudie-Jeans-copy-p-2600.png
+images/OrganicBasics-2-p-1600.png
+images/Sections-Visual-style-p-1080.png
+images/Sections-Visual-style-p-800.png
+images/TV-app--Day-25-p-1600.png
+images/UI-Challenges-thumbnail-p-1600.png
